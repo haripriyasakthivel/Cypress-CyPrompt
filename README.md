@@ -1,0 +1,62 @@
+### Cypress cy.prompt Demo
+
+A demonstration project showing the usage of Cypress with the experimental cy.prompt command for natural language test automation.
+
+### Setup
+```
+npm install cypress@latest
+```
+
+### Confirm Cypress version 15.4 or newer is installed
+```
+npx cypress version
+```
+
+
+### Configurations
+
+The project uses cypress.config.js with:
+
+1. Experimental prompt command enabled
+   ```
+   experimentalPromptCommand: true
+   ```
+
+3. Project ID configured for Cypress Cloud
+
+### Features
+
+1. Natural language test writing using cy.prompt
+2. Demo tests for http://eaapp.somee.com/
+   
+    User registration flow
+   
+    Login and employee table verification
+4. Auto-generated test credentials in support/e2e.js
+5. Example tests showcasing Cypress best practices
+
+### Running Tests
+```
+# Open Cypress Test Runner
+npx cypress open
+```
+
+```
+# Run tests headlessly
+npx cypress run
+```
+
+### Key Files
+
+cypromptDemo.cy.js - Main demo test file
+
+support/e2e.js - Test configuration and utilities
+
+### Run Result
+
+<img width="1691" height="964" alt="Screenshot 2025-10-22 at 11 28 44 pm" src="https://github.com/user-attachments/assets/4ffb2092-a187-48db-a29d-2e5af565271f" /> <br> 
+<br/>
+ 
+For more details about cy.prompt, visit 
+
+https://docs.cypress.io/api/commands/prompt?utm_source=blog&utm_medium=cyconf&utm_campaign=cyprompt_launch
