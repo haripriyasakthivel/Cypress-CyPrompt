@@ -54,7 +54,8 @@ support/e2e.js - Test configuration and utilities
 
 ### Run Result
 
-<img width="1691" height="964" alt="Screenshot 2025-10-22 at 11 28 44 pm" src="https://github.com/user-attachments/assets/4ffb2092-a187-48db-a29d-2e5af565271f" /> <br> 
+<img width="1680" height="981" alt="Screenshot 2025-10-23 at 7 37 46 pm" src="https://github.com/user-attachments/assets/cab87c92-00ee-413f-9071-71dd9cca5ed2" />
+ <br> 
 <br/>
  
 For more details about cy.prompt, visit 
