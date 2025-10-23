@@ -6,6 +6,7 @@ module.exports = defineConfig({
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    experimentalPromptCommand: true
+    experimentalPromptCommand: true,
+    baseUrl: "http://eaapp.somee.com/"
   },
 });
